@@ -1,0 +1,42 @@
+.login-container[data-v-25c6f22b] {
+  display: inline-block;
+  /*box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);*/
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  background-clip: padding-box;
+  width: 340px;
+  padding: 70px 110px 0;
+  background: #fff;
+  border: 1px solid #eaeaea;
+}
+.login-container .title[data-v-25c6f22b] {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0A79F9;
+    font-size: 30px;
+    line-height: 30px;
+}
+.login-container .remember[data-v-25c6f22b] {
+    margin: 0px 0px 35px 0px;
+}
+.login-container .divider[data-v-25c6f22b] {
+    height: 1px;
+    width: 100%;
+    margin: 24px 0;
+    background-color: #DCDFE6;
+    position: relative;
+}
+.login-container .divider .button[data-v-25c6f22b] {
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      position: absolute;
+      background-color: #FFF;
+      padding: 0 20px;
+      color: #A4ABB2;
+}
+.login-container .divider .blueColor[data-v-25c6f22b]:hover {
+      color: #0A79F9;
+}
+

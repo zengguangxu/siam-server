@@ -1,0 +1,11 @@
+
+/* 还是得用百分比来控制 */
+.left-table[data-v-7eb0e8ec]{
+	width: 50%;
+	float: left;
+}
+.right-table[data-v-7eb0e8ec]{
+	width: 46%;
+	float: right;
+}
+

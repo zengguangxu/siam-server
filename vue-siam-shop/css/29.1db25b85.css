@@ -1,0 +1,120 @@
+.container[data-v-6a5c015e] {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+.container .header[data-v-6a5c015e] {
+    height: 48px;
+    line-height: 48px;
+    background: white;
+    color: black;
+}
+.container .header .userinfo[data-v-6a5c015e] {
+      text-align: right;
+      padding-right: 35px;
+      float: right;
+}
+.container .header .userinfo .userinfo-inner[data-v-6a5c015e] {
+        cursor: pointer;
+        color: #fff;
+}
+.container .header .userinfo .userinfo-inner img[data-v-6a5c015e] {
+          width: 40px;
+          height: 40px;
+          border-radius: 20px;
+          margin: 10px 0px 10px 10px;
+          float: right;
+}
+.container .header .logo[data-v-6a5c015e] {
+      height: 48px;
+      font-size: 22px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border-color: rgba(238, 241, 146, 0.3);
+      border-right-width: 1px;
+      border-right-style: solid;
+}
+.container .header .logo img[data-v-6a5c015e] {
+        width: 40px;
+        float: left;
+        margin: 10px 10px 10px 18px;
+}
+.container .header .logo .txt[data-v-6a5c015e] {
+        color: #fff;
+}
+.container .header .logo-width[data-v-6a5c015e] {
+      width: 230px;
+}
+.container .header .logo-collapse-width[data-v-6a5c015e] {
+      width: 60px;
+}
+.container .header .tools[data-v-6a5c015e] {
+      padding: 0px 23px;
+      width: 14px;
+      height: 48px;
+      line-height: 48px;
+      cursor: pointer;
+}
+.container .main[data-v-6a5c015e] {
+    display: flex;
+    position: absolute;
+    top: 48px;
+    bottom: 0px;
+    overflow: hidden;
+}
+.container .main aside[data-v-6a5c015e] {
+      flex: 0 0 230px;
+      width: 230px;
+}
+.container .main aside .el-menu[data-v-6a5c015e] {
+        height: 100%;
+        overflow: auto;
+}
+.container .main aside .collapsed[data-v-6a5c015e] {
+        width: 60px;
+}
+.container .main aside .collapsed .item[data-v-6a5c015e] {
+          position: relative;
+}
+.container .main aside .collapsed .submenu[data-v-6a5c015e] {
+          position: absolute;
+          top: 0px;
+          left: 60px;
+          z-index: 99999;
+          height: auto;
+          display: none;
+}
+.container .main .menu-collapsed[data-v-6a5c015e] {
+      flex: 0 0 60px;
+      width: 60px;
+}
+.container .main .menu-expanded[data-v-6a5c015e] {
+      flex: 0 0 230px;
+      width: 230px;
+}
+.container .main .content-container[data-v-6a5c015e] {
+      flex: 1;
+      overflow-y: scroll;
+      padding: 20px;
+}
+.container .main .content-container .breadcrumb-container .title[data-v-6a5c015e] {
+        width: 200px;
+        float: left;
+        color: #475669;
+}
+.container .main .content-container .breadcrumb-container .breadcrumb-inner[data-v-6a5c015e] {
+        float: right;
+}
+.container .main .content-container .content-wrapper[data-v-6a5c015e] {
+        background-color: #fff;
+        box-sizing: border-box;
+}
+.container .changePassword .changePassform[data-v-6a5c015e] {
+    margin: 0 auto;
+    max-width: 600px;
+}
+.container .changePassword .changePassform .el-input[data-v-6a5c015e] {
+      max-width: 400px;
+}
+

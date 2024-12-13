@@ -1,0 +1,16 @@
+
+.el-button+.el-button[data-v-4df98c5c] {
+  margin-top: 5px;
+  margin-left: 0;
+}
+.dialogDiv[data-v-4df98c5c] {
+    height: 560px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+/* 将列表的图片宽高比例调大一点 */
+.el-table__body img[data-v-4df98c5c]{
+  width: 120px;
+  height: 120px;
+}  
+

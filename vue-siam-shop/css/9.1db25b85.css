@@ -1,0 +1,149 @@
+
+.editForm .el-input[data-v-8c7a17c6] {
+  width: 420px;
+}
+.standForm .el-input[data-v-8c7a17c6] {
+  width: 200px;
+}
+.avatar-uploader .el-upload[data-v-8c7a17c6] {
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    width: 148px;
+    height: 148px;
+}
+.avatar-uploader .el-upload[data-v-8c7a17c6]:hover {
+    border-color: #409EFF;
+}
+.avatar-uploader-icon[data-v-8c7a17c6] {
+    font-size: 28px;
+    color: #8c939d;
+    width: 148px;
+    height: 148px;
+    line-height: 148px;
+    text-align: center;
+}
+.avatar[data-v-8c7a17c6] {
+    width: 148px;
+    height: 148px;
+    display: block;
+}
+.editForm .minInput[data-v-8c7a17c6] {
+    width: 240px;
+}
+
+/* Start 余额信息模块 */
+.content[data-v-8c7a17c6]{
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    overflow: hidden;
+    /* background-color: #E7F1FA; */
+}
+.todayTitle[data-v-8c7a17c6]{
+    font-size:20px;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+    margin-right: 16px;
+}
+.todayBox[data-v-8c7a17c6]{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 60px;
+    display: -webkit-inline-box;
+}
+.totdayBlock[data-v-8c7a17c6]{
+    width: 20%;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius:4px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.orange[data-v-8c7a17c6]{
+    background-color: #F78A71;
+}
+.yellow[data-v-8c7a17c6]{
+    background-color: #F8B548;
+}
+.green[data-v-8c7a17c6]{
+    background-color: #3FD7E4;
+}
+.blue[data-v-8c7a17c6]{
+    background-color: #05ACEC;
+}
+.todayBlockTitle[data-v-8c7a17c6]{
+    margin-left: 18px;
+    /* color: rgba(0, 0, 0, 0.45); */
+    font-weight: 700;
+    font-size: 14px;
+}
+.todayBlockNum[data-v-8c7a17c6]{
+    /* text-align: center; */
+    font-size: 34px;
+    line-height: 34px;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+.searchBox[data-v-8c7a17c6]{
+    margin-top: 10px;
+}
+.searchTab[data-v-8c7a17c6]{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.searchTab span[data-v-8c7a17c6]{
+    font-size: 16px;
+    padding-right: 10px;
+}
+.searchBtn[data-v-8c7a17c6]{
+    margin-left: 10px;
+}
+.descBox[data-v-8c7a17c6]{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.descTab[data-v-8c7a17c6]{
+    width: 20%;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    border-radius:4px;
+    border-top: 2px solid #E8AB45;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.descTitle[data-v-8c7a17c6]{
+    font-size:16px;
+    color:rgba(153,153,153,1);
+    margin-left: 18px;
+}
+.descNum[data-v-8c7a17c6]{
+    text-align: center;
+    font-size:34px;
+    /* font-weight:bold; */
+    color:rgba(51,51,51,1);
+    margin-top: 50px;
+}
+.todayBlockCompare[data-v-8c7a17c6] {
+    font-size: 16px;
+      color: black;
+}
+.todayBlockYesterday[data-v-8c7a17c6] {
+    margin-left: 18px;
+    margin-top: 26px;
+    font-size: 14px;
+    line-height: 1.5715;
+}
+/* End 余额信息模块 */  
+

@@ -1,0 +1,254 @@
+@charset "UTF-8";
+body {
+  margin: 0px;
+  padding: 0px;
+  /*background: url(assets/bg1.jpg) center !important;
+		background-size: cover;*/
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+#app {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+.el-submenu [class^=fa] {
+  vertical-align: baseline;
+  margin-right: 10px;
+}
+.el-menu-item [class^=fa] {
+  vertical-align: baseline;
+  margin-right: 10px;
+}
+.toolbar {
+  padding: 10px;
+  margin: 10px 0px;
+}
+.toolbar .el-form-item {
+    margin-bottom: 10px;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: all .2s ease;
+}
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+.el-menu {
+  background-color: #090723;
+}
+.el-menu-item {
+  color: #fff;
+}
+.el-menu-item:hover {
+  color: #fff;
+  background-color: #5facb4;
+}
+.el-menu-item.is-active {
+  color: #fff;
+  background-color: #5facb4;
+}
+.el-submenu__title {
+  color: #fff;
+}
+.el-submenu__title:hover {
+  color: #fff;
+  background-color: #16162f;
+}
+.container .main .content-container[data-v-5a90ec03] {
+  background: white;
+}
+.container .main .content-container .content-wrapper[data-v-5a90ec03] {
+  background-color: unset !important;
+}
+.container .header .userinfo .userinfo-inner[data-v-5a90ec03] {
+  color: black !important;
+}
+.el-icon-user:before, .el-icon-milk-tea:before, .el-icon-s-order:before,
+.el-icon-house:before, .el-icon-picture:before, .el-icon-monitor:before,
+.el-icon-setting:before, .el-icon-picture-outline:before {
+  color: #fff;
+}
+.el-button--primary {
+  color: #FFF;
+  background-color: #5facb4;
+  border-color: #5facb4;
+}
+.el-button--primary:focus, .el-button--primary:hover {
+  color: #FFF;
+  background: #5ca2aa;
+  border-color: #5ca2aa;
+}
+.container .header .logo-width[data-v-5a90ec03] {
+  background: #22253b;
+  color: #fff;
+  font-weight: bold;
+  width: 229px !important;
+}
+.container .header .logo-collapse-width[data-v-5a90ec03] {
+  background: #22253b;
+}
+.container .header .userinfo .userinfo-inner img[data-v-5a90ec03] {
+  margin-top: 5px !important;
+}
+
+/* 将轮播图列表中的轮播图宽高比例调大一点(放在自身页面没用，放在这才有用) */
+.advertisementForm .el-upload-list--picture-card .el-upload-list__item {
+  width: 448px;
+  height: 248px;
+}
+.forHereOrderTabs #tab-zeroth, .forHereOrderTabs #tab-first {
+  color: red;
+}
+.takeOutOrderTabs #tab-first, .takeOutOrderTabs #tab-second {
+  color: red;
+}
+.mainImageFileItem .el-form-item__label {
+  width: 300px !important;
+}
+.subImagesFileItem .el-form-item__label {
+  width: 400px !important;
+}
+.detailImagesFileItem .el-form-item__label {
+  width: 400px !important;
+}
+.shopLogoImgFileItem .el-form-item__label {
+  width: 300px !important;
+}
+.shopWithinImgFileItem .el-form-item__label {
+  width: 300px !important;
+}
+
+/* 将添加/编辑商品页面中的轮播图宽高比例调大一点(放在自身页面没用，放在这才有用) */
+/* 将添加/编辑商品页面中轮播图宽高比例调大一点(放在自身页面没用，放在这才有用) */
+/* 将添加/编辑商品页面中的轮播图宽高比例调大一点(放在自身页面没用，放在这才有用) */
+/* 将门店信息页面中的轮播图宽高比例调大一点(放在自身页面没用，放在这才有用) */
+.shopLogoImgFileItem .el-upload-list--picture-card .el-upload-list__item {
+  width: 160px;
+  height: 160px;
+}
+
+/* 将门店信息页面中轮播图宽高比例调大一点(放在自身页面没用，放在这才有用) */
+.shopWithinImgFileItem .el-upload-list--picture-card .el-upload-list__item {
+  width: 160px;
+  height: 160px;
+}
+
+/* 覆盖element-radio大型区块的样式(数据中心页面) */
+/* element switch开关文字在按钮内显示 */
+.demo .el-switch__label {
+  position: absolute;
+  display: none;
+  color: #fff;
+}
+.demo .el-switch__label--right {
+  z-index: 1;
+  right: -3px;
+}
+.demo .el-switch__label--left {
+  z-index: 1;
+  left: 16px;
+}
+.demo .el-switch__label.is-active {
+  display: block;
+}
+.demo.el-switch .el-switch__core, .el-switch .el-switch__label {
+  width: 50px !important;
+}
+
+/* 将添加/编辑商品页面中轮播图宽高比例调大一点(放在自身页面没用，放在这才有用) */
+.firstPosterFileItem .el-form-item__label {
+  width: 400px !important;
+}
+.firstPosterFileItem .el-upload-list--picture-card .el-upload-list__item {
+  width: 400px;
+  height: 237px;
+}
+.text-tip {
+  display: block;
+  color: #8c939d;
+}
+ul.el-upload-list--text {
+  display: none !important;
+}
+
+html, body, div, label, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6,
+pre, code, form, fieldset, legend, p, blockquote, th, td, img, textarea
+{
+  border: 0;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+img {
+  display: inline-block;
+}
+:focus {
+  outline: 0;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+em, i, u {
+  font-style: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+input, button, textarea, select, optgroup, option {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
+input, button, textarea, select {
+  *font-size: 100%;
+}
+ol, ul {
+  list-style: none outside none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:link, :visited, ins {
+  text-decoration: none;
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+a:hover {
+  color: #c40000;
+  border: none;
+}
+a:visited {
+  border: none;
+  width: auto;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  color: #424242;
+  font-size: 12px;
+  font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif, STHeiti;
+  letter-spacing: 0;
+  height: 100%;
+  width: 100%;
+}
+.clearfix:after, .p-price:after, ul:after, li:after {
+  display: block;
+  content: ".";
+  height: 0;
+  visibility: hidden;
+  clear: both;
+  font-size: 0;
+  line-height: 0;
+}
+.ellipsis {overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+

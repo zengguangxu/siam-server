@@ -1,0 +1,56 @@
+
+.editForm .el-input[data-v-255d8f58] {
+  width: 420px;
+}
+.standForm .el-input[data-v-255d8f58] {
+  width: 200px;
+}
+.avatar-uploader .el-upload[data-v-255d8f58] {
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  width: 148px;
+  height: 148px;
+}
+.avatar-uploader .el-upload[data-v-255d8f58]:hover {
+  border-color: #409eff;
+}
+.avatar-uploader-icon[data-v-255d8f58] {
+  font-size: 28px;
+  color: #8c939d;
+  width: 148px;
+  height: 148px;
+  line-height: 148px;
+  text-align: center;
+}
+.avatar[data-v-255d8f58] {
+  width: 148px;
+  height: 148px;
+  display: block;
+}
+.editForm .minInput[data-v-255d8f58] {
+  width: 240px;
+}
+.cropper-content .cropper[data-v-255d8f58] {
+  width: auto;
+  height: 300px;
+}
+.preview-model[data-v-255d8f58] {
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+.preview-model-show[data-v-255d8f58] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+

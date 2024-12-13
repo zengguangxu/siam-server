@@ -1,0 +1,41 @@
+
+#map[data-v-529b68ee] {
+  height: 300px;
+  width: 100%;
+}
+
+
+.editForm .el-input[data-v-529b68ee] {
+  width: 420px;
+}
+.standForm .el-input[data-v-529b68ee] {
+  width: 200px;
+}
+.avatar-uploader .el-upload[data-v-529b68ee] {
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  width: 148px;
+  height: 148px;
+}
+.avatar-uploader .el-upload[data-v-529b68ee]:hover {
+  border-color: #409eff;
+}
+.avatar-uploader-icon[data-v-529b68ee] {
+  font-size: 28px;
+  color: #8c939d;
+  width: 148px;
+  height: 148px;
+  line-height: 148px;
+  text-align: center;
+}
+.avatar[data-v-529b68ee] {
+  width: 148px;
+  height: 148px;
+  display: block;
+}
+.editForm .minInput[data-v-529b68ee] {
+  width: 240px;
+}
+

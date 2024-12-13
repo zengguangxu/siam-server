@@ -1,0 +1,60 @@
+
+#map[data-v-1ce5465f] {
+  height: 300px;
+  width: 100%;
+}
+
+.login-container[data-v-1ce5465f] {
+  /*box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);*/
+  background-clip: padding-box;
+  margin: 30px auto;
+  width: 800px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 20px;
+  background: #fff;
+}
+.login-container .title[data-v-1ce5465f] {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0a79f9;
+    font-size: 30px;
+    line-height: 30px;
+}
+.login-container .Status[data-v-1ce5465f] {
+    margin-bottom: 20px;
+    color: #ff0000;
+    font-size: 20px;
+    line-height: 30px;
+}
+.login-container .handelButton[data-v-1ce5465f] {
+    text-align: center;
+}
+.login-container .divider[data-v-1ce5465f] {
+    height: 1px;
+    width: 100%;
+    margin: 24px 0;
+    background-color: #dcdfe6;
+    position: relative;
+}
+.login-container .divider .button[data-v-1ce5465f] {
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      position: absolute;
+      background-color: #fff;
+      padding: 0 20px;
+      color: #a4abb2;
+}
+.login-container .divider .blueColor[data-v-1ce5465f]:hover {
+      color: #0a79f9;
+}
+.userAgreement[data-v-1ce5465f] {
+  margin-bottom: 6px;
+}
+.userAgreement span[data-v-1ce5465f] {
+  font-weight: bold;
+  color: #b3b3b3;
+  cursor: pointer;
+}
+
