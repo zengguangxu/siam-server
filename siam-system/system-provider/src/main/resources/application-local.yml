@@ -28,8 +28,8 @@ spring:
 
   #redis单例模式
   redis:
-    host: 127.0.0.1
-    password:
+    host: r-uf6m9yaiqti4dolw8ypd.redis.rds.aliyuncs.com
+    password: fluga-test1
     port: 6379
     jedis:
       pool:
