@@ -1,0 +1,5 @@
+nvm use 10
+npm install
+npm i @vant/weapp -S
+安装hbuilderx
+并导入js sdk zp-mixins、p-f-unicom

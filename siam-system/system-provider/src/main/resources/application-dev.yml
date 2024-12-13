@@ -7,12 +7,6 @@ server:
 spring:
   #mysql
   datasource:
-    type: com.alibaba.druid.pool.DruidDataSource
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    #    url: jdbc:mysql://47.96.83.35:3306/siam_db?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8
-    #    username: kikuuroot_dev
-    #    password: 123456
-
     url: jdbc:mysql://47.96.83.35:3306/siam_db?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8&autoReconnect=true
     username: kikuuroot_dev
     password: 123456
@@ -93,42 +87,38 @@ spring:
           socketFactory.class: javax.net.ssl.SSLSocketFactory
           socketFactory.port: 465
 
-    shardingsphere:
-      datasource:
-        names: ds0,ds1
-        ds0:
-          type: com.alibaba.druid.pool.DruidDataSource
-          driverClassName: com.mysql.jdbc.Driver
-          url: jdbc:mysql://test.kikuu.com:3306/siam_db?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
-          username: kikuuroot_dev
-          password: 123456
-        ds1:
-          type: com.alibaba.druid.pool.DruidDataSource
-          driverClassName: com.mysql.jdbc.Driver
-          url: jdbc:mysql://test.kikuu.com:3306/siam_db?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
-          username: kikuuroot_dev
-          password: 123456
-      props:
-        sql:
-          show: true #是否显示sharding-jdbc的sql路由
-      sharding:
-        tables:
-          tb_points_mall_order:
-            actual-data-nodes: ds$->{0..1}.tb_points_mall_order_$->{0..1}
-            database-strategy:
-              inline:
-                algorithm-expression: ds$->{member_id % 2}
-                sharding-column: member_id
-            key-generator:
-              column: id
-              props:
-                worker:
-                  id: 1
-              type: SNOWFLAKE
-            table-strategy:
-              inline:
-                algorithm-expression: tb_points_mall_order_$->{id % 2}
-                sharding-column: id
+  shardingsphere:
+    datasource:
+      names: ds0,ds1
+      ds0:
+        url: jdbc:mysql://47.96.83.35:3306/siam_db?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8&autoReconnect=true
+        username: kikuuroot_dev
+        password: 123456
+      ds1:
+        url: jdbc:mysql://47.96.83.35:3306/siam_db?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=GMT%2B8&autoReconnect=true
+        username: kikuuroot_dev
+        password: 123456
+    props:
+      sql:
+        show: true #是否显示sharding-jdbc的sql路由
+    sharding:
+      tables:
+        tb_points_mall_order:
+          actual-data-nodes: ds$->{0..1}.tb_points_mall_order_$->{0..1}
+          database-strategy:
+            inline:
+              algorithm-expression: ds$->{member_id % 2}
+              sharding-column: member_id
+          key-generator:
+            column: id
+            props:
+              worker:
+                id: 1
+            type: SNOWFLAKE
+          table-strategy:
+            inline:
+              algorithm-expression: tb_points_mall_order_$->{id % 2}
+              sharding-column: id
 
   boot:
     admin:

@@ -393,7 +393,7 @@
 	};
 </script>
 <style>
-	@import "/wxcomponents/vant/dist/common/index.wxss"
+	@import "/wxcomponents/@vant/weapp/common/index.wxss";
 
 	.margin-common {
 		margin: 0rpx 20rpx;
