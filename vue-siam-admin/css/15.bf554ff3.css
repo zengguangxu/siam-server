@@ -1,0 +1,14 @@
+
+.el-button+.el-button[data-v-4d14b83c] {
+  margin-top: 5px;
+  margin-left: 0;
+}
+.editForm .el-input[data-v-4d14b83c] {
+  width: 300px;
+}
+.dialogDiv[data-v-4d14b83c] {
+    height: 560px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+

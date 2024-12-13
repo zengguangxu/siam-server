@@ -1,0 +1,42 @@
+
+.editForm .el-input[data-v-b8915bc4] {
+  width: 420px;
+}
+.standForm .el-input[data-v-b8915bc4] {
+  width: 200px;
+}
+.avatar-uploader .el-upload[data-v-b8915bc4] {
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    width: 148px;
+    height: 148px;
+}
+.avatar-uploader .el-upload[data-v-b8915bc4]:hover {
+    border-color: #409EFF;
+}
+.avatar-uploader-icon[data-v-b8915bc4] {
+    font-size: 28px;
+    color: #8c939d;
+    width: 148px;
+    height: 148px;
+    line-height: 148px;
+    text-align: center;
+}
+.avatar[data-v-b8915bc4] {
+    width: 148px;
+    height: 148px;
+    display: block;
+}
+.editForm .minInput[data-v-b8915bc4] {
+    width: 240px;
+}
+  /* 将列表的图片宽高比例调大一点 */
+.el-table__body img[data-v-b8915bc4]{
+	/* width: 318px;
+	height: 148px;	   */
+    width: 120px;
+    height: 120px;
+}
+

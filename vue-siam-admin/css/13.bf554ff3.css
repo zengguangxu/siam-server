@@ -1,0 +1,35 @@
+
+.editForm .el-input[data-v-56208f8c] {
+  width: 420px;
+}
+.standForm .el-input[data-v-56208f8c] {
+  width: 200px;
+}
+.avatar-uploader .el-upload[data-v-56208f8c] {
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    width: 148px;
+    height: 148px;
+}
+.avatar-uploader .el-upload[data-v-56208f8c]:hover {
+    border-color: #409EFF;
+}
+.avatar-uploader-icon[data-v-56208f8c] {
+    font-size: 28px;
+    color: #8c939d;
+    width: 148px;
+    height: 148px;
+    line-height: 148px;
+    text-align: center;
+}
+.avatar[data-v-56208f8c] {
+    width: 148px;
+    height: 148px;
+    display: block;
+}
+.editForm .minInput[data-v-56208f8c] {
+    width: 240px;
+}
+
