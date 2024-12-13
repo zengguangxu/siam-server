@@ -25,13 +25,13 @@ module.exports = {
     rootPath: '',
     name: 'siam-shop',
     http:{
-      baseUrl: 'https://api.show.siamit.cn/siam-server/', // production
-      baseUrl4Test: 'https://api.show.siamit.cn/siam-server/', // production_test
-      developmentBaseUrl: 'https://api.show.siamit.cn/siam-server' // development
+      baseUrl: 'http://47.100.177.145:9200/siam-server/', // production
+      baseUrl4Test: 'http://47.100.177.145:9200/siam-server/', // production_test
+      developmentBaseUrl: 'http://47.100.177.145:9200/siam-server' // development
 
-      // baseUrl: 'http://localhost:9200/siam-server', // production
-      // baseUrl4Test: 'http://localhost:9200/siam-server', // production_test
-      // developmentBaseUrl: 'http://localhost:9200/siam-server' // development
+      // baseUrl: 'http://47.100.177.145:9200/siam-server', // production
+      // baseUrl4Test: 'http://47.100.177.145:9200/siam-server', // production_test
+      // developmentBaseUrl: 'http://47.100.177.145:9200/siam-server' // development
     },
     oss:{
       domain: 'https://siam-hangzhou.oss-cn-hangzhou.aliyuncs.com/'

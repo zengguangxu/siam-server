@@ -72,7 +72,7 @@
             "disableHostCheck" : true,
             "proxy" : {
                 "/siam-server" : {
-                    "target" : "https://api.show.siamit.cn", //数据请求的接口网址
+                    "target" : "http://47.100.177.145:9200", //数据请求的接口网址
                     "changeOrigin" : true, //是否开启跨域
                     "secure" : false,
                     "pathRewrite" : {

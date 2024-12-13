@@ -9,7 +9,7 @@ import $http from '../../utils/http'
 
 var that = '';
 
-var urlPrefix = 'https://api.show.siamit.cn';
+var urlPrefix = 'http://47.100.177.145:9200';
 
 //默认标识打印成功
 var printIsSuccess = true;

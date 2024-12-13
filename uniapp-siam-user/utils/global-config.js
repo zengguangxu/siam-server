@@ -4,7 +4,7 @@ export default class GlabalConfig {
 	static baseUrl = 'siam-server';
 	// #endif
 	// #ifdef MP-WEIXIN||MP-ALIPAY
-	static baseUrl = 'https://api.show.siamit.cn/siam-server';
+	static baseUrl = 'http://47.100.177.145:9200/siam-server';
 	// #endif
     
     // static baseUrl = 'http://localhost:9020';

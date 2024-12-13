@@ -1,5 +1,5 @@
 {
-   "src_dir"            :   "/Users/king.zeng/WorkProject/siam-server/vue-siam-admin/siam-admin-1",
+   "src_dir"            :   "/Users/king.zeng/WorkProject/siam-server/vue-siam-admin/siam-admin-2",
    "bucket"             :   "iae-static",
    "key_prefix"         :   "siam-admin/front/"
 }

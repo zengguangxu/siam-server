@@ -92,7 +92,7 @@
   import $ from 'jquery'
   
   // var urlPrefix = 'https://api.siam.shop';
-  var urlPrefix = 'https://api.show.siamit.cn';
+  var urlPrefix = 'http://47.100.177.145:9200';
   // var urlPrefix = 'http://localhost:8060/siam-multi-brand-server';
 
   export default {

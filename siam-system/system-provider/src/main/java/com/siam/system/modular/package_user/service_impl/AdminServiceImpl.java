@@ -16,6 +16,7 @@ import com.siam.system.modular.package_user.model.param.AdminParam;
 import com.siam.system.modular.package_user.model.result.AdminResult;
 import com.siam.system.modular.package_user.service.*;
 import com.siam.system.util.TokenUtil;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,6 +27,7 @@ import java.util.List;
 import java.util.Map;
 
 @Service
+@Slf4j
 public class AdminServiceImpl implements AdminService {
 
     @Autowired
@@ -124,6 +126,14 @@ public class AdminServiceImpl implements AdminService {
         return adminMapper.selectByUsername(username);
     }
 
+    public static void main(String[] args) {
+        // 判断密码是否匹配
+//        String password = Base64Utils.decode("c2lhbTIwMjM=");
+        String password = Base64Utils.decode("MTIzNDU2");
+        password = CommonUtils.genMd5Password(password, "9f7986235b06419fbabf50d9f29fba6a");
+        System.out.println(password);
+    }
+
     @Override
     public AdminResult login(AdminParam param) {
         Admin dbAdmin = adminMapper.selectByUsername(param.getUsername());
@@ -132,8 +142,11 @@ public class AdminServiceImpl implements AdminService {
         }
 
         // 判断密码是否匹配
+        log.info("密码base64"+param.getPassword());
         String password = Base64Utils.decode(param.getPassword());
+        log.info("密码base64解码"+password);
         password = CommonUtils.genMd5Password(password, dbAdmin.getPasswordSalt());
+        log.info("密码base64加密"+password);
         if(!password.equals(dbAdmin.getPassword())){
             throw new StoneCustomerException("密码错误");
         }

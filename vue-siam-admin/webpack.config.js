@@ -8,7 +8,7 @@ const devMode = process.env.NODE_ENV !== 'production';
 module.exports = {
     entry: ['babel-polyfill', path.join(__dirname, './src/main.js')], // 项目的入口文件，webpack会从main.js开始，把所有依赖的js都加载打包
     output: {
-        path: path.resolve(__dirname, './siam-admin-1'), // 项目的打包文件路径
+        path: path.resolve(__dirname, './siam-admin-2'), // 项目的打包文件路径
         publicPath: '', // 通过devServer访问路径
         filename: 'js/[name].[hash].js' // 打包后的文件名
     },
