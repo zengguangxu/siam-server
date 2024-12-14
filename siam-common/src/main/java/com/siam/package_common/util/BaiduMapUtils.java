@@ -1,6 +1,7 @@
 package com.siam.package_common.util;
 
 import com.google.gson.internal.LinkedTreeMap;
+import com.siam.package_common.constant.BusinessType;
 import com.siam.package_common.constant.Quantity;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
@@ -166,6 +167,17 @@ public class BaiduMapUtils {
 
         LinkedTreeMap location = ((LinkedTreeMap) ((LinkedTreeMap) map.get("result")).get("location"));
         return location;
+    }
+
+    public static void main(String[] args) {
+        BaiduMapUtils baiduMapUtils = new BaiduMapUtils();
+        baiduMapUtils.ak = "jiPYrsPFCwBldUlX8icc493KSZ6yoWcw";
+        LinkedTreeMap travelingDistance1 = baiduMapUtils.getTravelingDistanceFromAddress("浙江省杭州市萧山区博地中心(盈丰路地铁站南)", "浙江省杭州市下城区文晖路139号打铁关", BusinessType.BAIDU_TRAVELING_PLAN_DRIVING);
+        LinkedTreeMap travelingDistance2 = baiduMapUtils.getTravelingDistanceFromAddress("浙江省杭州市萧山区博地中心(盈丰路地铁站南)", "浙江省杭州市下城区文晖路139号打铁关", BusinessType.BAIDU_TRAVELING_PLAN_RIDING);
+        LinkedTreeMap travelingDistance3 = baiduMapUtils.getTravelingDistanceFromAddress("浙江省杭州市萧山区博地中心(盈丰路地铁站南)", "浙江省杭州市下城区文晖路139号打铁关", BusinessType.BAIDU_TRAVELING_PLAN_WALKING);
+        System.out.println("行车距离-驾车：" + travelingDistance1);
+        System.out.println("行车距离-骑行：" + travelingDistance2);
+        System.out.println("行车距离-步行：" + travelingDistance3);
     }
 
     /**

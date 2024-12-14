@@ -212,8 +212,8 @@ wxpay:
   payToBalanceUrl: https://api.mch.weixin.qq.com/mmpaymkttransfers/promotion/transfers
 
 wxlogin:
-  appId: siam1026@163.com
-  secret: siam1026@163.com
+  appId: wx65e44d5b24c7eb9f
+  secret: 2c365ead9abba5dd1db5b8ec3d401f7b
 
 wxPublicPlatform:
   appId: siam1026@163.com
