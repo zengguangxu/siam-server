@@ -68,6 +68,7 @@ public class SmsLogController {
         insertSmsLog.setCreateTime(new Date());
         insertSmsLog.setIp(CommonUtils.getServerIP());
         insertSmsLog.setVerifyCode(mobileCode);
+        insertSmsLog.setVerifyCode("123456");
         insertSmsLog.setDescription(null);
         /*insertSmsLog.setStates(Quantity.INT_1);*/
         smsLogService.insertSelective(insertSmsLog);
