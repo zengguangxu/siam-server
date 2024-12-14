@@ -21,7 +21,7 @@ import java.util.Map;
  */
 @Component
 public class BaiduMapUtils {
-    @Value(value = "${baidu.map.ak:siam1026@163.com}")
+    @Value(value = "${baidu.map.ak}")
     private String ak;
 
     private static final Double PI = Math.PI;

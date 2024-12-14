@@ -271,3 +271,7 @@ logging:
     name: ./logs/${spring.application.name}/log_info.log
 path:
   log: ./logs/${spring.application.name}/
+
+baidu:
+  map:
+    ak: jiPYrsPFCwBldUlX8icc493KSZ6yoWcw
